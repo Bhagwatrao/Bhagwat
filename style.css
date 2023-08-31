@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: #333;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.hero {
+    background: url("hero.jpg") no-repeat center;
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.about,
+.services {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.about h2,
+.services h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.services ul {
+    list-style-type: none;
+}
+
+footer {
+    background: #333;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+}
